@@ -1,0 +1,43 @@
+<!doctype html>
+<html  lang="it"> 
+	<head>
+		<title>3 NUMERI IN ORDINE CRESCENTE
+		</title>
+	    <meta charset="UTF-8">	
+		<script src="numeriCrescenti.js"  ></script>			
+	</head>
+	
+	<body>
+	
+		<form>
+		
+			<table>
+				<tr>
+					<td colspan="3">Inserisci i tre numeri:</td>					
+				</tr>				
+				<tr>
+					<td><label for="primo">Primo:</label><input type="text" id="primo"></td>					
+					<td><label for="secondo">Secondo:</label><input type="text" id="secondo"></td>
+					<td><label for="terzo">Terzo:</label><input type="text" id="terzo"></td>
+				</tr>				
+				<tr>
+					<td></td>
+					<td><input type="button" value="Conferma" onclick="mainHTML();"/></td>
+					<td><input type="reset" value="Reset" onclick="pulisciDiv();"/></td>
+				</tr>
+				<tr>
+					<td><div id="errore" style="color:red; font-size:30px;  font-style: italic;font-family:'Sofia', sans-serif;, monospace;"></div></td>
+					<td><label for="risultato">risultato :</label></td>
+					<td><input type="text" id="risultato" size="20"/></td>
+				</tr>
+				<tr>
+					<td colspan="3"><div id="risultatoTXT" style="color:red; font-size:30px;  font-style: italic;font-family:'Sofia', sans-serif;, monospace;"></div></td>					
+				</tr>	
+			</table>	
+			
+		</form>
+	
+	
+	</body>
+</html> 
+		
